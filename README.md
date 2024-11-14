@@ -1,0 +1,33 @@
+<h1 align="center">Realtime Spotify Application ✨</h1>
+
+live demo:https://spotify-hari-1.onrender.com/
+
+<h2>tools to build</h2> 
+1.https://dashboard.clerk.com <br>
+2.https://cloudinary.com<br>
+3.https://www.mongodb.com/products/platform/atlas-database<br>
+<h2> deploy </h2>
+1.https://render.com
+
+### Setup .env file in _backend_ folder
+
+```bash
+PORT=...
+MONGODB_URI=...
+ADMIN_EMAIL=...
+NODE_ENV=...
+
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+
+
+CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
+```
+
+### Setup .env file in _frontend_ folder
+
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=...
+```
